@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@types/node": "^18.14.0",
+    "dotenv": "^16.0.3",
+    "nuxt": "^3.2.2",
+    "typescript": "^4.9.5",
+    "vue-tsc": "^1.1.3"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^5.1.0"
+  }
+}
