@@ -7,3 +7,7 @@ node_modules
 .env
 dist
 localhost-key.pem
+.nvmrc
+
+# Local Netlify folder
+.netlify
