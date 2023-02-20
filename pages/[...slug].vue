@@ -3,7 +3,7 @@ const { slug } = useRoute().params
  
 const story = await useAsyncStoryblok(
   slug && slug.length > 0 && slug !== 'blog' ? slug.join('/') : 'home',
-  { version: 'draft' }
+  { version: useRoute().query._storyblok ? 'draft': 'published' }
 )
 </script>
  
